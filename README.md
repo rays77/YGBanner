@@ -6,7 +6,7 @@
 
 NSArray *imageNames = @[@"1.jpg", @"2.jpg", @"3.jpg", @"4.jpg"];
 
-YGBanner *banner = [[YGBanner alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 160) imageNames:imageNames 
+YGBanner *banner = [[YGBanner alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 160) imageNames:imageNames\n 
 imageHandle:^(NSInteger index) {
     NSLog(@"点击了YGBanner第%ld张图", index);
 }];
