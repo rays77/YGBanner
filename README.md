@@ -1,6 +1,6 @@
-# YGBanner
+# 实例YGBanner代码
 
-实例YGBanner代码
+# UIScrollView复用，自动循环滚动，以及点击事件
 
 NSArray *imageNames = @[@"1.jpg", @"2.jpg", @"3.jpg", @"4.jpg"];
 
